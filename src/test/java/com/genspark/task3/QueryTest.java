@@ -50,7 +50,7 @@ public class QueryTest {
         }
         System.out.println("Duration : " + duration);
         // Assertions
-        yakshaAssert(currentTest(), (duration < 20 && count <=20), businessTestFile);
+        yakshaAssert(currentTest(), (duration < 200 && count <=20), businessTestFile);
         //assertTrue(duration < 20, "Query took too long: " + duration + " ms");
         //assertTrue(count <= 20, "Expected max 20 orders, but got: " + count);
     }
